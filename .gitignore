@@ -1,0 +1,59 @@
+# Unreal Engine gitignore
+# https://github.com/github/gitignore/blob/main/UnrealEngine.gitignore
+
+# Build directories
+Binaries/
+Build/
+Intermediate/
+
+# Saved files
+Saved/
+Saved/Logs/
+Saved/Config/
+
+# Derived data cache
+DerivedDataCache/
+
+# Visual Studio cache files
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Xcode cache files
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# Android generated files
+Build/
+*.apk
+*.aab
+
+# iOS/macOS generated files
+*.ipa
+DerivedData/
+*.dSYM/
+
+# Lua files
+*.luac
+
+# Ignore all .bat files except the one in the root
+**/*.bat
+!.bat
+
+# Ignore .md files but keep the root README.md
+**/*.md
+!README.md
+
+# Plugin specific
+Plugins/Intermediate/
+Plugins/Binaries/
+Plugins/Saved/
+
+# Marketplace
+Marketplace/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
